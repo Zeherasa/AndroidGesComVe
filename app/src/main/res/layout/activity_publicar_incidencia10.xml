@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D8D8"
+    tools:context=".publicar_incidencia10">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="109dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_incidencia" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="172dp"
+        android:fontFamily="serif-monospace"
+        android:text="PUBLICAR INCIDENCIA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="134dp"
+        android:layout_height="403dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <RadioButton
+            android:id="@+id/radioFontaneria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Fontaneria"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioElectricidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Electricidad"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioLimpieza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Limpieza"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioPintura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Pintura"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioAscensores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Ascensores"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioCristal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Cristalería"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioAlbañil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Albañilería"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioConserje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="Conserjería"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="185dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="TO DO: hay que hacer que se adjunte una foto q tengas en tu pc (luego borrar este TextView)"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="324dp"
+        android:fontFamily="serif-monospace"
+        android:text="ADJUNTAR FOTO"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextIncidencia" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_camara"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnIncidencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="Publicar"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <EditText
+        android:id="@+id/editTextIncidencia"
+        android:layout_width="214dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Escribir incidencia"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
